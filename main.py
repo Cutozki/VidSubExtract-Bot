@@ -173,7 +173,7 @@ async def main(bot, m):
                 round(percentage, 2)
             )
             try:
-                await msg.edit(progress + "`For cancel progress, send` /cancel", parse_mode='md')
+                await msg.edit(progress + "`For cancel progress, send` /cancel")
             except:
                 pass
 
